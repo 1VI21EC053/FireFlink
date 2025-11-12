@@ -15,12 +15,12 @@ public class CreateCampaginsDate {
 		String date = sim.format(d);
 		System.out.println(date);
 		// when we want to eg: departure date 
-		          Calendar cal = sim.getCalendar();
-		           cal.add(Calendar.DAY_OF_MONTH, 3456);
-		          //
-		           String ab = sim.format(cal.getTime());
-		         System.out.println(ab);
+		Calendar cal = sim.getCalendar();
+		 cal.add(Calendar.DAY_OF_MONTH, 3456);
+		String ab = sim.format(cal.getTime());
+		System.out.println(ab);
 		     
 	}
 
 }
+
